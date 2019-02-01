@@ -1,0 +1,87 @@
+/*left sidebar*/
+#leftcolumn{
+    background-color: #4E598C;
+    text-align: center;
+    height: 100vh;
+    width: 17em;
+}
+
+.photo{
+    border-radius: 50%;
+    margin-top: 8em;
+    height: 30vh;
+}
+
+h2{
+    color: palegoldenrod;
+}
+
+.position{
+    color: oldlace;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #90A959;
+}
+
+a:hover{
+    color: oldlace;
+}
+
+
+body{
+    background-color: 
+}
+
+/*** main content ***/
+#rightcolumn{
+    padding-left: 20em;
+    background-color: #F9C784;
+}
+
+h1 {
+    color: #A63D40;
+    margin-top: 1em;
+}
+
+.surname{
+    color: #1D7874;
+}
+
+h4{
+    color: darkolivegreen;
+}
+
+#education {
+    margin-top: 5em;
+}
+
+#college {
+    margin-bottom: 1em;
+}
+
+#shs {
+    margin-bottom: 1em;
+}
+
+#cocurricular {
+    margin-top: 3em;
+}
+
+#research {
+    margin-top: 3em;
+}
+
+#personal {
+    margin-top: 3em;
+}
+
+#reference {
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
