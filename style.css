@@ -1,87 +1,268 @@
-/*left sidebar*/
-#leftcolumn{
-    background-color: #4E598C;
-    text-align: center;
-    height: 100vh;
-    width: 17em;
+
+
+body, 
+nav li:hover ul.submenu li a:hover,
+{
+	background:#f6f6f6;
 }
 
-.photo{
-    border-radius: 50%;
-    margin-top: 8em;
-    height: 30vh;
+img{
+	width: 30vh;
+	height: 30vh;
+}
+.image {
+	margin-left: 40vh;
+    margin-top: 20vh;
 }
 
-h2{
-    color: palegoldenrod;
-}
-
-.position{
-    color: oldlace;
-    font-size: 1.5em;
-}
-
-ul{
-    list-style: none;
-}
-
-a{
-    color: #90A959;
-}
-
-a:hover{
-    color: oldlace;
+a:hover,
+nav i,
+nav .active,
+nav > ul > li a:hover,
+nav li:hover ul.submenu li a:hover,{
+	color:#000000;
+	transition: all 0.3s ease 0s;
 }
 
 
-body{
-    background-color: 
+nav,
+nav li:hover > ul.submenu,
+.navigation a,
+{
+	background:#fff;
 }
 
-/*** main content ***/
-#rightcolumn{
-    padding-left: 20em;
-    background-color: #F9C784;
+.nav li:hover{
+	color: 	#A9A9A9;
+}
+
+header a,
+{
+	color:#fff;
+}
+
+
+.post-text h2 a,
+{
+	color:#000;}
+
+
+.post-text .text {
+	color:#464646;
+}
+
+
+nav li a,{
+	color:#ffffff;
+}
+
+
+.post .text a:hover,{
+	color:#000000;
+}
+
+
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-    color: #A63D40;
-    margin-top: 1em;
+	font-family: "Playfair Display",serif;
+	font-size: 50pt;
+
 }
 
-.surname{
-    color: #1D7874;
+.menu-container {
+	width:1100px;
+	margin:0 auto;
+}
+.clear,
+.clearfix {
+	clear:both;
+}
+img {
+	max-width:100%;
+}
+a:hover,
+a:focus {
+	text-decoration:none;
+}
+input:focus,
+a:focus {
+	 outline: none;	
+}
+a {
+	transition: all 0.3s ease 0s;
+}
+a:hover {
+	transition: all 0.3s ease 0s;	
 }
 
-h4{
-    color: darkolivegreen;
+
+
+
+
+
+/*-------NAV-----------*/
+
+nav {
+	background: #c0945c;
+    display: inline-block;
+    padding: 50px 0;
+    width: 100%;
 }
 
-#education {
-    margin-top: 5em;
+nav ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+nav > ul {
+	margin: 0 auto;
+    text-align: left;
+    width: 1100px;
+}
+nav ul li {
+	display:inline-block;
+}
+nav ul > li a {
+	padding:25px 60px 25px 0;	
+}
+nav li a {
+	letter-spacing:2px;
+}
+nav li {
+	position:relative;
+}
+nav i {
+	font-size:11px;
 }
 
-#college {
-    margin-bottom: 1em;
+
+.nav-container {
+	display:none;
+	overflow:auto;
 }
 
-#shs {
-    margin-bottom: 1em;
+
+header li {
+    list-style: outside none none;
+}
+header a {
+    font-size: 20px;
+    text-decoration: none;
+	font-weight:400;
+	text-transform: uppercase;
+	color: #fff;
 }
 
-#cocurricular {
-    margin-top: 3em;
+nav.sticky {
+	border-radius: 0;
+    height: 50px;
+    left: 0;
+    margin: 0 auto;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    transition: all 0.6s ease 0s;
+    width: 100%;
+    z-index: 99999999;
+}
+nav.sticky  > ul {
+	padding:5px 40px;	
+}
+nav.sticky li:hover ul.submenu {
+	top:28px;
 }
 
-#research {
-    margin-top: 3em;
+
+
+.section .menu-container {
+	margin-top:50px;
+}
+article {
+	border: 1px solid #c0945c;
+    margin-bottom: 50px;
+    padding: 40px 40px 0;
+	position:relative;
 }
 
-#personal {
-    margin-top: 3em;
+.content-posts .content {
+	margin-right: 25px;
+    padding: 0;
 }
 
-#reference {
-    margin-top: 3em;
-    margin-bottom: 5em;
+
+.container-letter {
+    background: #ffffff;
+    padding: 50px;
+}
+
+
+.post-text {
+	padding:20px 0;
+}
+article h2 {
+    font-family: "Playfair Display",serif;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: -19px;
+	left:0;
+    width: 100%;
+}
+article h3 {
+    font-family: "Playfair Display",serif;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+	left:0;
+    width: 100%;
+}
+.content h2 a, .content h3 a {
+    background: #ffffff;
+    padding: 0 25px;
+	color:#000000;
+	transition: all 0.3s ease 0s;
+}
+.content h2 a:hover {
+	color:#c0945c;
+	transition: all 0.3s ease 0s;
+}
+
+aticle h2 a {
+	transition: all 0.3s ease 0s;
+}
+aticle h2 a:hover {
+	transition: all 0.3s ease 0s;
+	color:#c0945c;
+}
+.post-text .text {
+	text-align:justify;	
+	font-weight:300;
+	letter-spacing:1px;
+	line-height:1.8;
+	margin:0;
+}
+.post-text a i {
+	font-size:11px;	
+	margin-left:5px;
+}
+
+
+
+#dad {
+	margin-top: 10vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.content h1 {
+	margin-top: 5vh;
+	text-align: center;
 }
